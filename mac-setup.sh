@@ -138,6 +138,7 @@ BREW_CASK_PACKAGES=(
     "visual-studio-code"
     "firefox"
     "coteditor"
+    "google-chrome"
     
     # Add more GUI applications as needed
 )
