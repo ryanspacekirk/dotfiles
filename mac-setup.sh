@@ -38,6 +38,9 @@ check_brew_cask() {
         "docker")
             app_name="Docker.app"
             ;;
+        "google-chrome")
+            app_name="Google Chrome.app"
+            ;;
         *)
             # For unknown applications, capitalize first letter and add .app
             app_name="$(echo "$cask_name" | sed 's/./\U&/').app"
